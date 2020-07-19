@@ -10,6 +10,9 @@ class Artist
     @@all
   end
 
+def add_song
+
+
   def songs
     artist_songs = []
     Song.all.each do |a_song|
