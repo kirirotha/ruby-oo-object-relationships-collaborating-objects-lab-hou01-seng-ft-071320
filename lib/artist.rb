@@ -38,6 +38,8 @@ class Artist
       person = Artist.new(name)
   end
 
-
+  def print_songs
+    binding.pry
+  end
 
 end
