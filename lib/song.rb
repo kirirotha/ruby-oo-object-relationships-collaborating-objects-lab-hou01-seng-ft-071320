@@ -24,8 +24,6 @@ class Song
     song
   end
 
-  def print_songs
-    binding.pry
-  end
+  
 
 end
