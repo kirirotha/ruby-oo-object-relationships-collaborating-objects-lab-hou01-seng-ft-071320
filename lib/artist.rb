@@ -43,7 +43,7 @@ class Artist
     songs.each do |a_song|
       song_list = "#{song_list}#{a_song.name}\n"
     end
-    song_list
+    puts song_list
   end
 
 end
