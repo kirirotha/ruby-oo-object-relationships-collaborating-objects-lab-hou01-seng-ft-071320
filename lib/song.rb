@@ -24,4 +24,8 @@ class Song
     song
   end
 
+  def print_songs
+
+  end
+
 end
