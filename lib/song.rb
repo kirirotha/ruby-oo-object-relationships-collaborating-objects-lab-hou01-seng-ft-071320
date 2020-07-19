@@ -11,6 +11,9 @@ class Song
     @@all
   end
 
+  def self.clear
+    @@all = []
+  end
   
 
 
