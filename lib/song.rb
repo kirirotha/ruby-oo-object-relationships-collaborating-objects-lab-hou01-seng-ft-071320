@@ -13,6 +13,7 @@ class Song
 
   
 
+
   def self.new_by_filename(filename)
     parsed = filename.split(" - ")
     name = parsed[0]

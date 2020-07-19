@@ -43,6 +43,7 @@ describe 'Artist' do
 
   describe '#add_song' do
     it 'keeps track of an artist\'s songs' do
+      #Song.clear
       artist = Artist.new('Michael Jackson')
       song_one = Song.new("Rock With You")
       song_two = Song.new("Smooth Criminal")
@@ -77,6 +78,7 @@ describe 'Artist' do
 
   describe '#print_songs' do
     it 'lists all of the artist\'s songs' do
+      Song.clear
       artist = Artist.new('Michael Jackson')
       dirty_diana = Song.new("Dirty Diana")
       billie_jean = Song.new("Billie Jean")
