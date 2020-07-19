@@ -43,7 +43,7 @@ describe 'Artist' do
 
   describe '#add_song' do
     it 'keeps track of an artist\'s songs' do
-      #Song.clear
+      Song.clear
       artist = Artist.new('Michael Jackson')
       song_one = Song.new("Rock With You")
       song_two = Song.new("Smooth Criminal")
