@@ -39,7 +39,6 @@ class Artist
   end
 
   def print_songs
-    binding.pry
     song_list
     songs.each do |a_song|
       song_list = "#{song_list}#{a_song.name}\n"
