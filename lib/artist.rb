@@ -10,7 +10,9 @@ class Artist
     @@all
   end
 
-def add_song
+  def add_song
+    new_song = Song.new(song_name)
+  def
 
 
   def songs
