@@ -24,7 +24,7 @@ class Artist
       if defined?(a_song.artist.name)
 
         if a_song.artist.name == self.name
-          artist_songs << a_song.name
+          artist_songs << a_song
         end
       end
     end
